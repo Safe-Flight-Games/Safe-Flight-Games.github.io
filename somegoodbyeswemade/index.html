@@ -190,43 +190,43 @@
           
             <div class="gallery clearfix" id="gallery">
               <div class="gallery__item">
-                <a href="images/01.jpg">
-                  <img src="images/01.jpg.thumb.jpg" alt="01">
+                <a href="images/01.png">
+                  <img src="images/01.png.thumb.png" alt="01">
                 </a>
               </div>
               <div class="gallery__item">
-                <a href="images/02.jpg">
-                  <img src="images/02.jpg.thumb.jpg" alt="02">
+                <a href="images/02.png">
+                  <img src="images/02.png.thumb.png" alt="02">
                 </a>
               </div>
               <div class="gallery__item">
-                <a href="images/03.jpg">
-                  <img src="images/03.jpg.thumb.jpg" alt="03">
+                <a href="images/03.png">
+                  <img src="images/03.png.thumb.png" alt="03">
                 </a>
               </div>
               <div class="gallery__item">
-                <a href="images/04.jpg">
-                  <img src="images/04.jpg.thumb.jpg" alt="04">
+                <a href="images/04.png">
+                  <img src="images/04.png.thumb.png" alt="04">
                 </a>
               </div>
               <div class="gallery__item">
-                <a href="images/05.jpg">
-                  <img src="images/05.jpg.thumb.jpg" alt="05">
+                <a href="images/05.png">
+                  <img src="images/05.png.thumb.png" alt="05">
                 </a>
               </div>
               <div class="gallery__item">
-                <a href="images/06.jpg">
-                  <img src="images/06.jpg.thumb.jpg" alt="06">
+                <a href="images/06.png">
+                  <img src="images/06.png.thumb.png" alt="06">
                 </a>
               </div>
               <div class="gallery__item">
-                <a href="images/07.jpg">
-                  <img src="images/07.jpg.thumb.jpg" alt="07">
+                <a href="images/07.png">
+                  <img src="images/07.png.thumb.png" alt="07">
                 </a>
               </div>
               <div class="gallery__item">
-                <a href="images/08.jpg">
-                  <img src="images/08.jpg.thumb.jpg" alt="08">
+                <a href="images/08.png">
+                  <img src="images/08.png.thumb.png" alt="08">
                 </a>
               </div>
             </div>
@@ -341,7 +341,7 @@
     
             // Don't add the mini-player if no thumbnail.
             // It's already a gif, so no need to turn it on.
-            if (img.src.indexOf('.thumb.jpg') === -1) {
+              if (img.src.indexOf('.thumb.png') === -1) {
               return
             }
     
@@ -364,7 +364,7 @@
     
               // Remove overlay and remove thumbnail section of the image.
               link.className = '';
-              img.src = img.src.replace('.thumb.jpg', '');
+                img.src = img.src.replace('.thumb.png', '');
     
               // Remove event listener after first trigger.
               link.onclick = null;
